@@ -1,9 +1,22 @@
-.animation {
-  width: 130px;
-  height: 130px;
-  background-color: #2196F3;
-  transition: background-color 3s linear;
-}
 
-.animation:hover {
-  background-color :rgb(184, 117, 117);
+@keyframes example{
+from {background-color: red; }
+  to {background-color:blue;}
+}
+div.parent{
+width: 300px;
+height: 300px;
+background-color:orange;
+animation-name:example;
+animation-duration: 5s;
+}
+ .parent:hover{border: solid  green 5px;}
+
+  
+  
+ 
+
+
+
+
+
